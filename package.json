@@ -1,7 +1,7 @@
 {
-  "name": "ib-hex-bot",
+  "name": "itachi-md",
   "version": "3.0.0",
-  "description": "IB-HEX-BOT WhatsApp par ibrahima sory sacko",
+  "description": "ITACHI-MD WhatsApp par ibrahima sory sacko",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
