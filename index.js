@@ -526,12 +526,12 @@ async function startBot() {
 │ ⬡ ${PREFIX}attp [texte] → Texte → Sticker
 ╰────────────────🥷
 
+const menu = ` .... (long texte)
+
 _🤖 ${BOT_NAME} v3.0 | System Central Hex_`;
 
 await sendImg(sock, from, MENU_IMG, menu);
-
-    else if (cmd === "alive") {
-      await sendImg(sock, from, MENU_IMG,
+                    
         `╭─✅ BOT ACTIF ──────🥷
 │ 🤖 *${BOT_NAME}* en ligne!
 │ ⏱️ Uptime: *${getUptime()}*
